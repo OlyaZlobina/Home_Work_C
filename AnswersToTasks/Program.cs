@@ -34,13 +34,24 @@
 
 // 3. Написать программу, которая принимает число и проверяет четное ли оно (делится ли оно на 2 без остатка).
 
-Console.WriteLine("Input number: ");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num%2==0){
-    Console.WriteLine("Even Number");
-}
-else
-Console.WriteLine("Odd Number");
+//Console.WriteLine("Input number: ");
+//int num = Convert.ToInt32(Console.ReadLine());
+//if (num%2==0){
+    //Console.WriteLine("Even Number");
+//}
+//else
+//Console.WriteLine("Odd Number");
 
+// 4. Написать программу, которая на вход принимает число N, а на выходе показывает все четные числа от 1 до N.
+
+Console.WriteLine("Input number: ");
+int N = Convert.ToInt32(Console.ReadLine());
+    for(int current = 1; current < N; current++)
+        {
+            if (current%2==0)
+            {
+            Console.Write(current + " ");
+            }
+        }
     
 
